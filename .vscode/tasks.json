@@ -1,0 +1,58 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run API (8186)",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-NoProfile",
+				"-ExecutionPolicy",
+				"Bypass",
+				"-File",
+				"C:\\Users\\user\\.copilot\\session-state\\0f1bc11d-8ad5-487e-be4b-96742d2c14a8\\files\\run-api.ps1"
+			],
+			"isBackground": true
+		},
+		{
+			"label": "Run Web (5178)",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-NoProfile",
+				"-ExecutionPolicy",
+				"Bypass",
+				"-File",
+				"C:\\Users\\user\\.copilot\\session-state\\0f1bc11d-8ad5-487e-be4b-96742d2c14a8\\files\\run-web.ps1"
+			],
+			"isBackground": true
+		},
+		{
+			"label": "Run API v2",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-NoProfile",
+				"-ExecutionPolicy",
+				"Bypass",
+				"-File",
+				"C:\\Users\\user\\.copilot\\session-state\\0f1bc11d-8ad5-487e-be4b-96742d2c14a8\\files\\run-api.ps1"
+			],
+			"isBackground": true
+		},
+		{
+			"label": "Run public tunnel",
+			"type": "shell",
+			"command": "powershell",
+			"args": [
+				"-NoProfile",
+				"-ExecutionPolicy",
+				"Bypass",
+				"-File",
+				"C:\\Users\\user\\.copilot\\session-state\\0f1bc11d-8ad5-487e-be4b-96742d2c14a8\\files\\run-public.ps1"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
